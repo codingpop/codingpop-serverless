@@ -1,0 +1,38 @@
+{
+  "name": "codingpop-serverless",
+  "version": "1.0.0",
+  "description": "Codingpop Serverless",
+  "main": "index.js",
+  "dependencies": {
+    "apollo-server-azure-functions": "^2.4.8",
+    "bcryptjs": "^2.4.3",
+    "graphql": "^14.2.0",
+    "mongoose": "^5.4.20"
+  },
+  "devDependencies": {
+    "eslint": "^5.15.3",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "prettier": "^1.16.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "func start",
+    "lint": "eslint graphql",
+    "lint:fix": "eslint graphql --fix",
+    "lint:dry": "eslint graphql --fix-dry-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codingpop/codingpop-serverless.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codingpop/codingpop-serverless/issues"
+  },
+  "homepage": "https://github.com/codingpop/codingpop-serverless#readme"
+}
